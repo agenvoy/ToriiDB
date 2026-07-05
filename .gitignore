@@ -5,3 +5,5 @@ temp/
 .env.local
 worker/.wrangler
 worker/node_modules
+.gocache/
+.gotmp/
