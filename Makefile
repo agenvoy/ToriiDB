@@ -4,7 +4,7 @@ test:
 	go run cmd/test/main.go
 
 unit:
-	go test ./... -count=1
+	go test ./core/... -count=1 -cover
 
 embed:
 	go test ./core/openai/ -v -run TestEmbed_Integration -count=1
