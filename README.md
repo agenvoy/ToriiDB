@@ -10,8 +10,8 @@
 <p align="center">
 <a href="https://pkg.go.dev/github.com/agenvoy/toriidb"><img src="https://img.shields.io/badge/GO-REFERENCE-blue?include_prereleases&style=for-the-badge" alt="Go Reference"></a>
 <a href="Release"><img src="https://img.shields.io/github/v/tag/agenvoy/toriidb?include_prereleases&style=for-the-badge" alt="Release"></a>
-<a href="https://github.com/agenvoy/toriidb/releases"><img src="https://img.shields.io/github/license/agenvoy/toriidb?include_prereleases&style=for-the-badge" alt="License"></a>
-<a href="https://app.codecov.io/github/agenvoy/toriidb/tree/master"><img src="https://img.shields.io/codecov/c/github/agenvoy/toriidb/master?include_prereleases&style=for-the-badge" alt="Coverage"></a>
+<a href="./LICENSE"><img src="https://img.shields.io/github/license/agenvoy/toriidb?include_prereleases&style=for-the-badge" alt="License"></a>
+<a href="https://app.codecov.io/github/agenvoy/ToriiDB/tree/develop"><img src="https://img.shields.io/codecov/c/github/agenvoy/toriidb/develop?include_prereleases&style=for-the-badge" alt="Coverage"></a>
 </p>
 
 ***
