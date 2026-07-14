@@ -5,7 +5,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/agenvoy/toriidb/core/store"
+	"github.com/pardnchiu/toriidb/core/store"
 )
 
 func TestSession_VSearch(t *testing.T) {

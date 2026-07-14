@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/agenvoy/toriidb/core/store/filter"
+	"github.com/pardnchiu/toriidb/core/store/filter"
 )
 
 func newParser(input string) *filter.Parser {

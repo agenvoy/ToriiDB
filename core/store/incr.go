@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/agenvoy/toriidb/core/utils"
+	"github.com/pardnchiu/toriidb/core/utils"
 )
 
 func (c *core) Incr(key string, delta float64) (float64, error) {

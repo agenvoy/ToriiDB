@@ -1,4 +1,4 @@
-module github.com/agenvoy/toriidb
+module github.com/pardnchiu/toriidb
 
 go 1.25.0
 

@@ -4,7 +4,7 @@ package filter_test
 import (
 	"testing"
 
-	"github.com/agenvoy/toriidb/core/store/filter"
+	"github.com/pardnchiu/toriidb/core/store/filter"
 )
 
 func TestCond_Match(t *testing.T) {
@@ -51,10 +51,10 @@ func TestCond_Match(t *testing.T) {
 			want:  false,
 		},
 		{
-			name: "zero-value cond",
-			cond: filter.Cond{},
+			name:  "zero-value cond",
+			cond:  filter.Cond{},
 			input: map[string]any{"": ""},
-			want: false, // TODO: behavior assumption — empty field name resolves to full object, not empty-string key
+			want:  false, // TODO: behavior assumption — empty field name resolves to full object, not empty-string key
 		},
 	}
 	for _, tt := range tests {

@@ -4,8 +4,8 @@ package store_test
 import (
 	"testing"
 
-	"github.com/agenvoy/toriidb/core/store"
-	"github.com/agenvoy/toriidb/core/store/filter"
+	"github.com/pardnchiu/toriidb/core/store"
+	"github.com/pardnchiu/toriidb/core/store/filter"
 )
 
 func TestSession_Find(t *testing.T) {

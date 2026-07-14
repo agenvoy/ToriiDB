@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/agenvoy/toriidb/core/store"
+	"github.com/pardnchiu/toriidb/core/store"
 )
 
 func TestStore_New(t *testing.T) {

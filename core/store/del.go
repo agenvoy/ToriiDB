@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/agenvoy/toriidb/core/utils"
+	"github.com/pardnchiu/toriidb/core/utils"
 )
 
 func (c *core) Del(keys ...string) int {

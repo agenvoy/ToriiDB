@@ -4,7 +4,7 @@ package store_test
 import (
 	"testing"
 
-	"github.com/agenvoy/toriidb/core/store"
+	"github.com/pardnchiu/toriidb/core/store"
 )
 
 func TestEntry_Value(t *testing.T) {
@@ -59,11 +59,11 @@ func TestSession_Set(t *testing.T) {
 	sess := s.Session()
 
 	tests := []struct {
-		name     string
-		key      string
-		value    string
-		flag     store.SetFlag
-		wantErr  bool
+		name    string
+		key     string
+		value   string
+		flag    store.SetFlag
+		wantErr bool
 	}{
 		{"simple", "k1", "v1", store.SetDefault, false},
 		{"json", "k2", `{"a":1}`, store.SetDefault, false},
