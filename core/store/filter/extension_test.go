@@ -4,7 +4,7 @@ package filter_test
 import (
 	"testing"
 
-	"github.com/agenvoy/toriidb/core/store/filter"
+	"github.com/pardnchiu/toriidb/core/store/filter"
 )
 
 func TestAnd_Match(t *testing.T) {

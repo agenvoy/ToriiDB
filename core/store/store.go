@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/agenvoy/toriidb/core/openai"
+	"github.com/pardnchiu/toriidb/core/openai"
 )
 
 const (

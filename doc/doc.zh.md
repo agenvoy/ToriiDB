@@ -13,7 +13,7 @@
 ### 從原始碼建置
 
 ```bash
-git clone https://github.com/agenvoy/toriidb.git
+git clone https://github.com/pardnchiu/toriidb.git
 cd toriidb
 go build ./...
 ```

@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/agenvoy/toriidb/core/utils"
+	"github.com/pardnchiu/toriidb/core/utils"
 )
 
 type embedPayload struct {

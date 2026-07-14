@@ -7,3 +7,4 @@ worker/.wrangler
 worker/node_modules
 .gocache/
 .gotmp/
+wiki-worker/
